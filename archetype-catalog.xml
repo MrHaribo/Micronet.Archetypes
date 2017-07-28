@@ -6,7 +6,7 @@
     <archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
       <artifactId>mn-archetype-simpleservice</artifactId>
-      <version>0.1-SNAPSHOT</version>
+      <version>0.1.0</version>
       <repository></repository>
     </archetype>
   </archetypes>
