@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
 enabled=false
-links=
+container.name=accountdb
+ports=5432\:5432

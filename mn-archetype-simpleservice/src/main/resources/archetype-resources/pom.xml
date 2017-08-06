@@ -47,6 +47,8 @@
 					<configuration>
 						<compilerArgs>
 							<arg>-Aworkspace_path=${project.basedir}\..\</arg>
+							<arg>-Apackage_name=${project.groupId}.${project.artifactId}</arg>
+							<arg>-Agenerate_model=true</arg>
 						</compilerArgs>
 					</configuration>
 				</plugin>

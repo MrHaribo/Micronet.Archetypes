@@ -5,8 +5,18 @@
 	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+	<fileSets>
+		<fileSet encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>mn_remove</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+
 	<modules>
-		<module id="${rootArtifactId}Service" dir="__rootArtifactId__Service" name="${rootArtifactId}Service">
+		<module id="${rootArtifactId}Service" dir="__rootArtifactId__Service"
+			name="${rootArtifactId}Service">
 			<fileSets>
 				<fileSet filtered="true" packaged="true" encoding="UTF-8">
 					<directory>src/main/java</directory>
