@@ -16,7 +16,6 @@ import com.couchbase.client.java.query.N1qlQuery;
 import com.couchbase.client.java.query.N1qlQueryResult;
 import com.couchbase.client.java.query.N1qlQueryRow;
 
-import ${package}.${artifactId}.Player;
 import micronet.model.Entity;
 import micronet.serialization.Serialization;
 
