@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mrharibo.micronet</groupId>
-	<artifactId>mn-archetype-simpleservice</artifactId>
-	<version>0.1.2</version>
+	<artifactId>mn-archetype-gatewayservice</artifactId>
+	<version>0.1.0</version>
 	<packaging>maven-archetype</packaging>
 
-	<name>SimpleService</name>
-	<description>A simple MicroNet Service Archetype</description>
+	<name>GatewayService</name>
+	<description>MicroNet API Gateway Service Archetype</description>
 	<url>https://github.com/MrHaribo/MicroNet</url>
 
 	<licenses>
@@ -104,3 +104,5 @@
 		</plugins>
 	</build>
 </project>
+
+

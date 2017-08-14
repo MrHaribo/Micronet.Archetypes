@@ -11,6 +11,12 @@
     </archetype>
 	<archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
+      <artifactId>mn-archetype-gatewayservice</artifactId>
+      <version>0.1.0</version>
+      <repository></repository>
+    </archetype>
+	<archetype>
+      <groupId>com.github.mrharibo.micronet</groupId>
       <artifactId>mn-archetype-couchbase</artifactId>
       <version>0.1.0</version>
       <repository></repository>
