@@ -19,7 +19,7 @@ import com.googlecode.lanterna.gui2.Window;
 import com.googlecode.lanterna.gui2.table.Table;
 import com.googlecode.lanterna.gui2.table.TableModel;
 
-import ${package}.${artifactId}.Player;
+import ${package}.Player;
 
 public class GameInformationWindow extends BasicWindow {
 

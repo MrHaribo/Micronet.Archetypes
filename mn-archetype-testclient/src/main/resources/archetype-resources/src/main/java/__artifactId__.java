@@ -18,12 +18,12 @@ import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
 import com.googlecode.lanterna.terminal.TerminalResizeListener;
 
-import ${package}.${artifactId}.UI.ConsoleWindow;
-import ${package}.${artifactId}.UI.GameInformationWindow;
-import ${package}.${artifactId}.UI.HeaderWindow;
-import ${package}.${artifactId}.UI.LoginWindow;
-import ${package}.${artifactId}.UI.ResultWindow;
-import ${package}.${artifactId}.UI.VoteWindow;
+import ${package}.UI.ConsoleWindow;
+import ${package}.UI.GameInformationWindow;
+import ${package}.UI.HeaderWindow;
+import ${package}.UI.LoginWindow;
+import ${package}.UI.ResultWindow;
+import ${package}.UI.VoteWindow;
 import micronet.network.IPeer;
 import micronet.network.Request;
 import micronet.network.Response;

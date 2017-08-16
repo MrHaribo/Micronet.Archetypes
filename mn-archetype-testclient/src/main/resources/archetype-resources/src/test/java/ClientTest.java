@@ -18,7 +18,7 @@ public class ClientTest
      *
      * @param testName name of the test case
      */
-    public ServiceTest( String testName )
+    public ClientTest( String testName )
     {
         super( testName );
     }
@@ -28,7 +28,7 @@ public class ClientTest
      */
     public static Test suite()
     {
-        return new TestSuite( ServiceTest.class );
+        return new TestSuite( ClientTest.class );
     }
 
     /**

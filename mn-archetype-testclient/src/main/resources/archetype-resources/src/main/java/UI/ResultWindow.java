@@ -14,7 +14,7 @@ import com.googlecode.lanterna.gui2.LinearLayout;
 import com.googlecode.lanterna.gui2.Panel;
 import com.googlecode.lanterna.gui2.Window;
 
-import ${package}.${artifactId}.VoteResult;
+import ${package}.VoteResult;
 
 public class ResultWindow extends BasicWindow {
 
