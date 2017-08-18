@@ -3,34 +3,28 @@
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <archetypes>
-    <archetype>
-      <groupId>com.github.mrharibo.micronet</groupId>
-      <artifactId>mn-archetype-simpleservice</artifactId>
-      <version>0.1.2</version>
-      <repository></repository>
-    </archetype>
 	<archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
-      <artifactId>mn-archetype-gatewayservice</artifactId>
+      <artifactId>mn-archetype-playerservice</artifactId>
       <version>0.1.0</version>
       <repository></repository>
     </archetype>
 	<archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
-      <artifactId>mn-archetype-couchbase</artifactId>
+      <artifactId>mn-archetype-roundservice</artifactId>
       <version>0.1.0</version>
       <repository></repository>
     </archetype>
 	<archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
-      <artifactId>mn-archetype-activemq</artifactId>
+      <artifactId>mn-archetype-voteservice</artifactId>
       <version>0.1.0</version>
       <repository></repository>
     </archetype>
 	<archetype>
       <groupId>com.github.mrharibo.micronet</groupId>
-      <artifactId>mn-archetype-accountservice</artifactId>
-      <version>0.1.3</version>
+      <artifactId>mn-archetype-testclient</artifactId>
+      <version>0.1.0</version>
       <repository></repository>
     </archetype>
   </archetypes>
