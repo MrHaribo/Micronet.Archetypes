@@ -1,7 +1,7 @@
 FROM postgres
 
 # Change Password as soon as possible
-ENV POSTGRES_PASSWORD=1234
+ENV POSTGRES_PASSWORD=${artifactId}_password_1234
 
 EXPOSE 5432
 
