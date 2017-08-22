@@ -14,7 +14,7 @@ public class ${artifactId} {
 	
 	@OnStart
 	public void onStart(Context context) {
-		System.out.println("${artifactId} Started...");
+		System.out.println("${artifactId} Start Routine...");
 		context.sendRequest("mn://my_service/hello/world/handler", new Request("Hello"));
 	}
 	

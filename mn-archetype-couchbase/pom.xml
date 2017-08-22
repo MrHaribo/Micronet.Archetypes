@@ -7,7 +7,7 @@
 	<version>0.1.0</version>
 	<packaging>maven-archetype</packaging>
 
-	<name>SimpleService</name>
+	<name>couchbase</name>
 	<description>Docker Container Archetype to use Couchbase with MicroNet</description>
 	<url>https://github.com/MrHaribo/MicroNet</url>
 
