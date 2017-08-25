@@ -9,7 +9,7 @@ RUN chmod +x /couchbase_init.sh
 COPY couchbase_start.sh /couchbase_start.sh
 RUN chmod +x /couchbase_start.sh
 
-RUN wget https://raw.githubusercontent.com/MrHaribo/MicroNet.Example/master/wait-for-it.sh
+RUN wget https://mrharibo.github.io/wait-for-it.sh
 RUN chmod +x wait-for-it.sh
 
 ENTRYPOINT /couchbase_start.sh

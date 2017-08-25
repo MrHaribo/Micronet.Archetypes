@@ -8,7 +8,7 @@ ENV couchbase_address="couchbase"
 
 ADD . /usr/src/app
 
-RUN wget https://raw.githubusercontent.com/MrHaribo/MicroNet.Example/master/wait-for-it.sh
+RUN wget https://mrharibo.github.io/wait-for-it.sh
 RUN chmod +x wait-for-it.sh
 
 CMD ./wait-for-it.sh $message_broker_address -- java -cp ./target/classes:./target/lib/* ServiceImpl
