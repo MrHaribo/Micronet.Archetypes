@@ -158,6 +158,8 @@ public class ${artifactId} {
 			gameInfoWindow.setVisible(true);
 			
 			peer.sendRequest(URI.create("mn://player/score/all"), new Request(), scoreResponse -> {
+				if (scoreResponse.getStatus() != StatusCode.OK)
+					return;
 				Player[] allPlayers = Serialization.deserialize(scoreResponse.getData(), Player[].class);
 				gameInfoWindow.refreshPlayerScores(allPlayers);
 			});
